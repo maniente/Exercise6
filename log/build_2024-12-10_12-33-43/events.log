@@ -1,0 +1,323 @@
+[0.000000] (-) TimerEvent: {}
+[0.000514] (hello_moveit) JobQueued: {'identifier': 'hello_moveit', 'dependencies': OrderedDict()}
+[0.000725] (hello_moveit) JobStarted: {'identifier': 'hello_moveit'}
+[0.020129] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'cmake'}
+[0.021612] (hello_moveit) Command: {'cmd': ['/usr/bin/cmake', '/home/maniente/ws_moveit/src/hello_moveit', '-DCMAKE_INSTALL_PREFIX=/home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit'], 'cwd': '/home/maniente/ws_moveit/src/hello_moveit/build/hello_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maniente'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('IGNITION_VERSION', 'fortress'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maniente/ws_moveit/install/pilz_industrial_motion_planner_testutils/lib:/home/maniente/ws_moveit/install/pilz_industrial_motion_planner/lib:/home/maniente/ws_moveit/install/moveit_visual_tools/lib:/home/maniente/ws_moveit/install/moveit_task_constructor_visualization/lib:/home/maniente/ws_moveit/install/moveit_task_constructor_demo/lib:/home/maniente/ws_moveit/install/moveit_task_constructor_capabilities/lib:/home/maniente/ws_moveit/install/moveit_task_constructor_core/lib:/home/maniente/ws_moveit/install/moveit_ros_control_interface/lib:/home/maniente/ws_moveit/install/moveit_simple_controller_manager/lib:/home/maniente/ws_moveit/install/moveit_setup_assistant/lib:/home/maniente/ws_moveit/install/moveit_setup_srdf_plugins/lib:/home/maniente/ws_moveit/install/moveit_setup_core_plugins/lib:/home/maniente/ws_moveit/install/moveit_setup_controllers/lib:/home/maniente/ws_moveit/install/moveit_setup_app_plugins/lib:/home/maniente/ws_moveit/install/moveit_setup_framework/lib:/home/maniente/ws_moveit/install/moveit_servo/lib:/home/maniente/ws_moveit/install/moveit_ros_visualization/lib:/home/maniente/ws_moveit/install/moveit_hybrid_planning/lib:/home/maniente/ws_moveit/install/moveit_ros_planning_interface/lib:/home/maniente/ws_moveit/install/moveit_ros_benchmarks/lib:/home/maniente/ws_moveit/install/moveit_ros_warehouse/lib:/home/maniente/ws_moveit/install/moveit_ros_robot_interaction/lib:/home/maniente/ws_moveit/install/moveit_ros_perception/lib:/home/maniente/ws_moveit/install/moveit_ros_move_group/lib:/home/maniente/ws_moveit/install/moveit_planners_ompl/lib:/home/maniente/ws_moveit/install/moveit_ros_planning/lib:/home/maniente/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/maniente/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/maniente/ws_moveit/install/moveit_planners_chomp/lib:/home/maniente/ws_moveit/install/moveit_kinematics/lib:/home/maniente/ws_moveit/install/moveit_chomp_optimizer_adapter/lib:/home/maniente/ws_moveit/install/chomp_motion_planner/lib:/home/maniente/ws_moveit/install/moveit_core/lib:/home/maniente/ws_moveit/install/srdfdom/lib:/home/maniente/ws_moveit/install/rviz_marker_tools/lib:/home/maniente/ws_moveit/install/rosparam_shortcuts/lib:/home/maniente/ws_moveit/install/moveit_task_constructor_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/maniente'), ('OLDPWD', '/home/maniente/ws_moveit'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/maniente/.nvm/versions/node/v20.17.0/bin'), ('NVM_INC', '/home/maniente/.nvm/versions/node/v20.17.0/include/node'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '1950'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/maniente/.nvm'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maniente/ws_moveit/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maniente'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maniente'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/maniente/ws_moveit/install/moveit_core/bin:/home/maniente/.nvm/versions/node/v20.17.0/bin:/opt/ros/humble/bin:/home/maniente/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/maniente-X556URK:@/tmp/.ICE-unix/1922,unix/maniente-X556URK:/tmp/.ICE-unix/1922'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4b8aa8bb_4dbf_467b_99a0_e9da34c31f09'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OD1CY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/maniente/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/maniente/ws_moveit/install/moveit_runtime:/home/maniente/ws_moveit/install/moveit2_tutorials:/home/maniente/ws_moveit/install/moveit:/home/maniente/ws_moveit/install/moveit_planners:/home/maniente/ws_moveit/install/pilz_industrial_motion_planner:/home/maniente/ws_moveit/install/moveit_visual_tools:/home/maniente/ws_moveit/install/moveit_task_constructor_visualization:/home/maniente/ws_moveit/install/moveit_task_constructor_demo:/home/maniente/ws_moveit/install/moveit_task_constructor_capabilities:/home/maniente/ws_moveit/install/moveit_task_constructor_core:/home/maniente/ws_moveit/install/moveit_ros_control_interface:/home/maniente/ws_moveit/install/moveit_plugins:/home/maniente/ws_moveit/install/moveit_simple_controller_manager:/home/maniente/ws_moveit/install/moveit_setup_assistant:/home/maniente/ws_moveit/install/moveit_setup_srdf_plugins:/home/maniente/ws_moveit/install/moveit_setup_core_plugins:/home/maniente/ws_moveit/install/moveit_setup_controllers:/home/maniente/ws_moveit/install/moveit_setup_app_plugins:/home/maniente/ws_moveit/install/moveit_setup_framework:/home/maniente/ws_moveit/install/moveit_servo:/home/maniente/ws_moveit/install/moveit_ros:/home/maniente/ws_moveit/install/moveit_ros_visualization:/home/maniente/ws_moveit/install/moveit_hybrid_planning:/home/maniente/ws_moveit/install/hello_moveit:/home/maniente/ws_moveit/install/moveit_ros_planning_interface:/home/maniente/ws_moveit/install/moveit_ros_benchmarks:/home/maniente/ws_moveit/install/moveit_ros_warehouse:/home/maniente/ws_moveit/install/moveit_ros_robot_interaction:/home/maniente/ws_moveit/install/moveit_ros_perception:/home/maniente/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/maniente/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/maniente/ws_moveit/install/moveit_ros_move_group:/home/maniente/ws_moveit/install/moveit_planners_ompl:/home/maniente/ws_moveit/install/moveit_ros_planning:/home/maniente/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/maniente/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/maniente/ws_moveit/install/moveit_planners_chomp:/home/maniente/ws_moveit/install/moveit_kinematics:/home/maniente/ws_moveit/install/moveit_chomp_optimizer_adapter:/home/maniente/ws_moveit/install/chomp_motion_planner:/home/maniente/ws_moveit/install/moveit_core:/home/maniente/ws_moveit/install/moveit_configs_utils:/home/maniente/ws_moveit/install/srdfdom:/home/maniente/ws_moveit/install/rviz_marker_tools:/home/maniente/ws_moveit/install/rosparam_shortcuts:/home/maniente/ws_moveit/install/moveit_task_constructor_msgs:/home/maniente/ws_moveit/install/moveit_resources_prbt_support:/home/maniente/ws_moveit/install/moveit_resources:/home/maniente/ws_moveit/install/moveit_resources_pr2_description:/home/maniente/ws_moveit/install/moveit_resources_panda_moveit_config:/home/maniente/ws_moveit/install/moveit_resources_panda_description:/home/maniente/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/maniente/ws_moveit/install/moveit_resources_fanuc_description:/home/maniente/ws_moveit/install/moveit_common:/home/maniente/ws_moveit/install/launch_param_builder:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CMAKE_MODULE_PATH', '/home/maniente/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maniente/ws_moveit/src/hello_moveit/build/hello_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maniente/ws_moveit/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages:/home/maniente/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/maniente/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/maniente/ws_moveit/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/maniente/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/maniente/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/maniente/ws_moveit/install/moveit_runtime:/home/maniente/ws_moveit/install/moveit2_tutorials:/home/maniente/ws_moveit/install/moveit:/home/maniente/ws_moveit/install/moveit_planners:/home/maniente/ws_moveit/install/pilz_industrial_motion_planner:/home/maniente/ws_moveit/install/moveit_visual_tools:/home/maniente/ws_moveit/install/moveit_task_constructor_visualization:/home/maniente/ws_moveit/install/moveit_task_constructor_demo:/home/maniente/ws_moveit/install/moveit_task_constructor_capabilities:/home/maniente/ws_moveit/install/moveit_task_constructor_core:/home/maniente/ws_moveit/install/moveit_ros_control_interface:/home/maniente/ws_moveit/install/moveit_plugins:/home/maniente/ws_moveit/install/moveit_simple_controller_manager:/home/maniente/ws_moveit/install/moveit_setup_assistant:/home/maniente/ws_moveit/install/moveit_setup_srdf_plugins:/home/maniente/ws_moveit/install/moveit_setup_core_plugins:/home/maniente/ws_moveit/install/moveit_setup_controllers:/home/maniente/ws_moveit/install/moveit_setup_app_plugins:/home/maniente/ws_moveit/install/moveit_setup_framework:/home/maniente/ws_moveit/install/moveit_servo:/home/maniente/ws_moveit/install/moveit_ros:/home/maniente/ws_moveit/install/moveit_ros_visualization:/home/maniente/ws_moveit/install/moveit_hybrid_planning:/home/maniente/ws_moveit/install/hello_moveit:/home/maniente/ws_moveit/install/moveit_ros_planning_interface:/home/maniente/ws_moveit/install/moveit_ros_benchmarks:/home/maniente/ws_moveit/install/moveit_ros_warehouse:/home/maniente/ws_moveit/install/moveit_ros_robot_interaction:/home/maniente/ws_moveit/install/moveit_ros_perception:/home/maniente/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/maniente/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/maniente/ws_moveit/install/moveit_ros_move_group:/home/maniente/ws_moveit/install/moveit_planners_ompl:/home/maniente/ws_moveit/install/moveit_ros_planning:/home/maniente/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/maniente/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/maniente/ws_moveit/install/moveit_planners_chomp:/home/maniente/ws_moveit/install/moveit_kinematics:/home/maniente/ws_moveit/install/moveit_chomp_optimizer_adapter:/home/maniente/ws_moveit/install/chomp_motion_planner:/home/maniente/ws_moveit/install/moveit_core:/home/maniente/ws_moveit/install/srdfdom:/home/maniente/ws_moveit/install/rviz_marker_tools:/home/maniente/ws_moveit/install/rosparam_shortcuts:/home/maniente/ws_moveit/install/moveit_task_constructor_msgs:/home/maniente/ws_moveit/install/moveit_resources_prbt_support:/home/maniente/ws_moveit/install/moveit_resources:/home/maniente/ws_moveit/install/moveit_resources_pr2_description:/home/maniente/ws_moveit/install/moveit_resources_panda_moveit_config:/home/maniente/ws_moveit/install/moveit_resources_panda_description:/home/maniente/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/maniente/ws_moveit/install/moveit_resources_fanuc_description:/home/maniente/ws_moveit/install/moveit_common:/home/maniente/ws_moveit/install/moveit_configs_utils:/home/maniente/ws_moveit/install/launch_param_builder:/opt/ros/humble')]), 'shell': False}
+[0.047221] (hello_moveit) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099692] (-) TimerEvent: {}
+[0.200030] (-) TimerEvent: {}
+[0.236431] (hello_moveit) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.6 (/home/maniente/ws_moveit/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)\n'}
+[0.252508] (hello_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[0.293591] (hello_moveit) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.296570] (hello_moveit) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.300145] (-) TimerEvent: {}
+[0.303488] (hello_moveit) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.320017] (hello_moveit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.341949] (hello_moveit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400261] (-) TimerEvent: {}
+[0.500643] (-) TimerEvent: {}
+[0.600965] (-) TimerEvent: {}
+[0.617983] (hello_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[0.665243] (hello_moveit) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[0.701107] (-) TimerEvent: {}
+[0.706205] (hello_moveit) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.711683] (hello_moveit) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.801173] (-) TimerEvent: {}
+[0.890596] (hello_moveit) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.901270] (-) TimerEvent: {}
+[0.955785] (hello_moveit) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.983781] (hello_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[1.001366] (-) TimerEvent: {}
+[1.046266] (hello_moveit) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[1.084311] (hello_moveit) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.101491] (-) TimerEvent: {}
+[1.201911] (-) TimerEvent: {}
+[1.253516] (hello_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[1.300026] (hello_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[1.302026] (-) TimerEvent: {}
+[1.330932] (hello_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[1.375037] (hello_moveit) StdoutLine: {'line': b'-- Found moveit_visual_tools: 4.1.1 (/home/maniente/ws_moveit/install/moveit_visual_tools/share/moveit_visual_tools/cmake)\n'}
+[1.402171] (-) TimerEvent: {}
+[1.502468] (-) TimerEvent: {}
+[1.514334] (hello_moveit) StdoutLine: {'line': b"-- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'\n"}
+[1.547512] (hello_moveit) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[1.549145] (hello_moveit) StdoutLine: {'line': b'-- Found OGRE\n'}
+[1.549342] (hello_moveit) StdoutLine: {'line': b'--   static     : OFF\n'}
+[1.549488] (hello_moveit) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[1.549627] (hello_moveit) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[1.549805] (hello_moveit) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[1.549939] (hello_moveit) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[1.550124] (hello_moveit) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[1.550257] (hello_moveit) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[1.550374] (hello_moveit) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[1.550513] (hello_moveit) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[1.550638] (hello_moveit) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[1.550789] (hello_moveit) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[1.550935] (hello_moveit) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[1.595212] (hello_moveit) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[1.602602] (-) TimerEvent: {}
+[1.616506] (hello_moveit) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[1.702740] (-) TimerEvent: {}
+[1.803072] (-) TimerEvent: {}
+[1.843652] (hello_moveit) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[1.844100] (hello_moveit) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[1.903153] (-) TimerEvent: {}
+[1.962896] (hello_moveit) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[1.963150] (hello_moveit) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[2.003253] (-) TimerEvent: {}
+[2.076650] (hello_moveit) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[2.076885] (hello_moveit) StdoutLine: {'line': b'-- Looking for connect\n'}
+[2.103377] (-) TimerEvent: {}
+[2.206154] (-) TimerEvent: {}
+[2.221204] (hello_moveit) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[2.221514] (hello_moveit) StdoutLine: {'line': b'-- Looking for remove\n'}
+[2.306461] (-) TimerEvent: {}
+[2.390356] (hello_moveit) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[2.390688] (hello_moveit) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[2.406683] (-) TimerEvent: {}
+[2.507173] (-) TimerEvent: {}
+[2.528406] (hello_moveit) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[2.528686] (hello_moveit) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[2.607267] (-) TimerEvent: {}
+[2.657317] (hello_moveit) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[2.707378] (-) TimerEvent: {}
+[2.807837] (-) TimerEvent: {}
+[2.872417] (hello_moveit) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.907948] (-) TimerEvent: {}
+[3.008280] (-) TimerEvent: {}
+[3.010177] (hello_moveit) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.010517] (hello_moveit) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/maniente/ws_moveit/src/hello_moveit/include>\n'}
+[3.010676] (hello_moveit) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.015240] (hello_moveit) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.026431] (hello_moveit) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.031133] (hello_moveit) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.068827] (hello_moveit) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.069038] (hello_moveit) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.074497] (hello_moveit) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.075498] (hello_moveit) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.108402] (-) TimerEvent: {}
+[3.150694] (hello_moveit) StdoutLine: {'line': b'-- Generating done\n'}
+[3.169416] (hello_moveit) StdoutLine: {'line': b'-- Build files have been written to: /home/maniente/ws_moveit/src/hello_moveit/build/hello_moveit\n'}
+[3.190665] (hello_moveit) CommandEnded: {'returncode': 0}
+[3.194353] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'build'}
+[3.194696] (hello_moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maniente/ws_moveit/src/hello_moveit/build/hello_moveit', '--', '-j4', '-l4'], 'cwd': '/home/maniente/ws_moveit/src/hello_moveit/build/hello_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maniente'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('IGNITION_VERSION', 'fortress'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maniente/ws_moveit/install/pilz_industrial_motion_planner_testutils/lib:/home/maniente/ws_moveit/install/pilz_industrial_motion_planner/lib:/home/maniente/ws_moveit/install/moveit_visual_tools/lib:/home/maniente/ws_moveit/install/moveit_task_constructor_visualization/lib:/home/maniente/ws_moveit/install/moveit_task_constructor_demo/lib:/home/maniente/ws_moveit/install/moveit_task_constructor_capabilities/lib:/home/maniente/ws_moveit/install/moveit_task_constructor_core/lib:/home/maniente/ws_moveit/install/moveit_ros_control_interface/lib:/home/maniente/ws_moveit/install/moveit_simple_controller_manager/lib:/home/maniente/ws_moveit/install/moveit_setup_assistant/lib:/home/maniente/ws_moveit/install/moveit_setup_srdf_plugins/lib:/home/maniente/ws_moveit/install/moveit_setup_core_plugins/lib:/home/maniente/ws_moveit/install/moveit_setup_controllers/lib:/home/maniente/ws_moveit/install/moveit_setup_app_plugins/lib:/home/maniente/ws_moveit/install/moveit_setup_framework/lib:/home/maniente/ws_moveit/install/moveit_servo/lib:/home/maniente/ws_moveit/install/moveit_ros_visualization/lib:/home/maniente/ws_moveit/install/moveit_hybrid_planning/lib:/home/maniente/ws_moveit/install/moveit_ros_planning_interface/lib:/home/maniente/ws_moveit/install/moveit_ros_benchmarks/lib:/home/maniente/ws_moveit/install/moveit_ros_warehouse/lib:/home/maniente/ws_moveit/install/moveit_ros_robot_interaction/lib:/home/maniente/ws_moveit/install/moveit_ros_perception/lib:/home/maniente/ws_moveit/install/moveit_ros_move_group/lib:/home/maniente/ws_moveit/install/moveit_planners_ompl/lib:/home/maniente/ws_moveit/install/moveit_ros_planning/lib:/home/maniente/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/maniente/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/maniente/ws_moveit/install/moveit_planners_chomp/lib:/home/maniente/ws_moveit/install/moveit_kinematics/lib:/home/maniente/ws_moveit/install/moveit_chomp_optimizer_adapter/lib:/home/maniente/ws_moveit/install/chomp_motion_planner/lib:/home/maniente/ws_moveit/install/moveit_core/lib:/home/maniente/ws_moveit/install/srdfdom/lib:/home/maniente/ws_moveit/install/rviz_marker_tools/lib:/home/maniente/ws_moveit/install/rosparam_shortcuts/lib:/home/maniente/ws_moveit/install/moveit_task_constructor_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/maniente'), ('OLDPWD', '/home/maniente/ws_moveit'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/maniente/.nvm/versions/node/v20.17.0/bin'), ('NVM_INC', '/home/maniente/.nvm/versions/node/v20.17.0/include/node'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '1950'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/maniente/.nvm'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maniente/ws_moveit/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maniente'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maniente'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/maniente/ws_moveit/install/moveit_core/bin:/home/maniente/.nvm/versions/node/v20.17.0/bin:/opt/ros/humble/bin:/home/maniente/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/maniente-X556URK:@/tmp/.ICE-unix/1922,unix/maniente-X556URK:/tmp/.ICE-unix/1922'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4b8aa8bb_4dbf_467b_99a0_e9da34c31f09'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OD1CY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/maniente/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/maniente/ws_moveit/install/moveit_runtime:/home/maniente/ws_moveit/install/moveit2_tutorials:/home/maniente/ws_moveit/install/moveit:/home/maniente/ws_moveit/install/moveit_planners:/home/maniente/ws_moveit/install/pilz_industrial_motion_planner:/home/maniente/ws_moveit/install/moveit_visual_tools:/home/maniente/ws_moveit/install/moveit_task_constructor_visualization:/home/maniente/ws_moveit/install/moveit_task_constructor_demo:/home/maniente/ws_moveit/install/moveit_task_constructor_capabilities:/home/maniente/ws_moveit/install/moveit_task_constructor_core:/home/maniente/ws_moveit/install/moveit_ros_control_interface:/home/maniente/ws_moveit/install/moveit_plugins:/home/maniente/ws_moveit/install/moveit_simple_controller_manager:/home/maniente/ws_moveit/install/moveit_setup_assistant:/home/maniente/ws_moveit/install/moveit_setup_srdf_plugins:/home/maniente/ws_moveit/install/moveit_setup_core_plugins:/home/maniente/ws_moveit/install/moveit_setup_controllers:/home/maniente/ws_moveit/install/moveit_setup_app_plugins:/home/maniente/ws_moveit/install/moveit_setup_framework:/home/maniente/ws_moveit/install/moveit_servo:/home/maniente/ws_moveit/install/moveit_ros:/home/maniente/ws_moveit/install/moveit_ros_visualization:/home/maniente/ws_moveit/install/moveit_hybrid_planning:/home/maniente/ws_moveit/install/hello_moveit:/home/maniente/ws_moveit/install/moveit_ros_planning_interface:/home/maniente/ws_moveit/install/moveit_ros_benchmarks:/home/maniente/ws_moveit/install/moveit_ros_warehouse:/home/maniente/ws_moveit/install/moveit_ros_robot_interaction:/home/maniente/ws_moveit/install/moveit_ros_perception:/home/maniente/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/maniente/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/maniente/ws_moveit/install/moveit_ros_move_group:/home/maniente/ws_moveit/install/moveit_planners_ompl:/home/maniente/ws_moveit/install/moveit_ros_planning:/home/maniente/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/maniente/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/maniente/ws_moveit/install/moveit_planners_chomp:/home/maniente/ws_moveit/install/moveit_kinematics:/home/maniente/ws_moveit/install/moveit_chomp_optimizer_adapter:/home/maniente/ws_moveit/install/chomp_motion_planner:/home/maniente/ws_moveit/install/moveit_core:/home/maniente/ws_moveit/install/moveit_configs_utils:/home/maniente/ws_moveit/install/srdfdom:/home/maniente/ws_moveit/install/rviz_marker_tools:/home/maniente/ws_moveit/install/rosparam_shortcuts:/home/maniente/ws_moveit/install/moveit_task_constructor_msgs:/home/maniente/ws_moveit/install/moveit_resources_prbt_support:/home/maniente/ws_moveit/install/moveit_resources:/home/maniente/ws_moveit/install/moveit_resources_pr2_description:/home/maniente/ws_moveit/install/moveit_resources_panda_moveit_config:/home/maniente/ws_moveit/install/moveit_resources_panda_description:/home/maniente/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/maniente/ws_moveit/install/moveit_resources_fanuc_description:/home/maniente/ws_moveit/install/moveit_common:/home/maniente/ws_moveit/install/launch_param_builder:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CMAKE_MODULE_PATH', '/home/maniente/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maniente/ws_moveit/src/hello_moveit/build/hello_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maniente/ws_moveit/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages:/home/maniente/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/maniente/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/maniente/ws_moveit/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/maniente/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/maniente/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/maniente/ws_moveit/install/moveit_runtime:/home/maniente/ws_moveit/install/moveit2_tutorials:/home/maniente/ws_moveit/install/moveit:/home/maniente/ws_moveit/install/moveit_planners:/home/maniente/ws_moveit/install/pilz_industrial_motion_planner:/home/maniente/ws_moveit/install/moveit_visual_tools:/home/maniente/ws_moveit/install/moveit_task_constructor_visualization:/home/maniente/ws_moveit/install/moveit_task_constructor_demo:/home/maniente/ws_moveit/install/moveit_task_constructor_capabilities:/home/maniente/ws_moveit/install/moveit_task_constructor_core:/home/maniente/ws_moveit/install/moveit_ros_control_interface:/home/maniente/ws_moveit/install/moveit_plugins:/home/maniente/ws_moveit/install/moveit_simple_controller_manager:/home/maniente/ws_moveit/install/moveit_setup_assistant:/home/maniente/ws_moveit/install/moveit_setup_srdf_plugins:/home/maniente/ws_moveit/install/moveit_setup_core_plugins:/home/maniente/ws_moveit/install/moveit_setup_controllers:/home/maniente/ws_moveit/install/moveit_setup_app_plugins:/home/maniente/ws_moveit/install/moveit_setup_framework:/home/maniente/ws_moveit/install/moveit_servo:/home/maniente/ws_moveit/install/moveit_ros:/home/maniente/ws_moveit/install/moveit_ros_visualization:/home/maniente/ws_moveit/install/moveit_hybrid_planning:/home/maniente/ws_moveit/install/hello_moveit:/home/maniente/ws_moveit/install/moveit_ros_planning_interface:/home/maniente/ws_moveit/install/moveit_ros_benchmarks:/home/maniente/ws_moveit/install/moveit_ros_warehouse:/home/maniente/ws_moveit/install/moveit_ros_robot_interaction:/home/maniente/ws_moveit/install/moveit_ros_perception:/home/maniente/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/maniente/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/maniente/ws_moveit/install/moveit_ros_move_group:/home/maniente/ws_moveit/install/moveit_planners_ompl:/home/maniente/ws_moveit/install/moveit_ros_planning:/home/maniente/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/maniente/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/maniente/ws_moveit/install/moveit_planners_chomp:/home/maniente/ws_moveit/install/moveit_kinematics:/home/maniente/ws_moveit/install/moveit_chomp_optimizer_adapter:/home/maniente/ws_moveit/install/chomp_motion_planner:/home/maniente/ws_moveit/install/moveit_core:/home/maniente/ws_moveit/install/srdfdom:/home/maniente/ws_moveit/install/rviz_marker_tools:/home/maniente/ws_moveit/install/rosparam_shortcuts:/home/maniente/ws_moveit/install/moveit_task_constructor_msgs:/home/maniente/ws_moveit/install/moveit_resources_prbt_support:/home/maniente/ws_moveit/install/moveit_resources:/home/maniente/ws_moveit/install/moveit_resources_pr2_description:/home/maniente/ws_moveit/install/moveit_resources_panda_moveit_config:/home/maniente/ws_moveit/install/moveit_resources_panda_description:/home/maniente/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/maniente/ws_moveit/install/moveit_resources_fanuc_description:/home/maniente/ws_moveit/install/moveit_common:/home/maniente/ws_moveit/install/moveit_configs_utils:/home/maniente/ws_moveit/install/launch_param_builder:/opt/ros/humble')]), 'shell': False}
+[3.208492] (-) TimerEvent: {}
+[3.295215] (hello_moveit) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hello_moveit\x1b[0m\n'}
+[3.308598] (-) TimerEvent: {}
+[3.346419] (hello_moveit) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o\x1b[0m\n'}
+[3.408693] (-) TimerEvent: {}
+[3.509729] (-) TimerEvent: {}
+[3.610071] (-) TimerEvent: {}
+[3.710735] (-) TimerEvent: {}
+[3.811224] (-) TimerEvent: {}
+[3.911539] (-) TimerEvent: {}
+[4.011827] (-) TimerEvent: {}
+[4.112160] (-) TimerEvent: {}
+[4.212445] (-) TimerEvent: {}
+[4.312757] (-) TimerEvent: {}
+[4.413133] (-) TimerEvent: {}
+[4.513440] (-) TimerEvent: {}
+[4.613724] (-) TimerEvent: {}
+[4.714005] (-) TimerEvent: {}
+[4.814287] (-) TimerEvent: {}
+[4.914577] (-) TimerEvent: {}
+[5.014838] (-) TimerEvent: {}
+[5.115157] (-) TimerEvent: {}
+[5.215449] (-) TimerEvent: {}
+[5.315760] (-) TimerEvent: {}
+[5.416070] (-) TimerEvent: {}
+[5.516372] (-) TimerEvent: {}
+[5.616706] (-) TimerEvent: {}
+[5.717043] (-) TimerEvent: {}
+[5.817344] (-) TimerEvent: {}
+[5.917673] (-) TimerEvent: {}
+[6.018010] (-) TimerEvent: {}
+[6.118330] (-) TimerEvent: {}
+[6.218679] (-) TimerEvent: {}
+[6.318951] (-) TimerEvent: {}
+[6.419272] (-) TimerEvent: {}
+[6.519629] (-) TimerEvent: {}
+[6.620161] (-) TimerEvent: {}
+[6.721193] (-) TimerEvent: {}
+[6.821573] (-) TimerEvent: {}
+[6.921954] (-) TimerEvent: {}
+[7.022264] (-) TimerEvent: {}
+[7.122586] (-) TimerEvent: {}
+[7.222891] (-) TimerEvent: {}
+[7.323190] (-) TimerEvent: {}
+[7.423539] (-) TimerEvent: {}
+[7.523866] (-) TimerEvent: {}
+[7.624171] (-) TimerEvent: {}
+[7.724501] (-) TimerEvent: {}
+[7.824852] (-) TimerEvent: {}
+[7.925244] (-) TimerEvent: {}
+[8.025563] (-) TimerEvent: {}
+[8.125847] (-) TimerEvent: {}
+[8.226166] (-) TimerEvent: {}
+[8.326431] (-) TimerEvent: {}
+[8.426725] (-) TimerEvent: {}
+[8.527036] (-) TimerEvent: {}
+[8.627343] (-) TimerEvent: {}
+[8.727685] (-) TimerEvent: {}
+[8.828035] (-) TimerEvent: {}
+[8.928339] (-) TimerEvent: {}
+[9.028680] (-) TimerEvent: {}
+[9.128975] (-) TimerEvent: {}
+[9.229290] (-) TimerEvent: {}
+[9.329594] (-) TimerEvent: {}
+[9.429888] (-) TimerEvent: {}
+[9.530156] (-) TimerEvent: {}
+[9.630526] (-) TimerEvent: {}
+[9.730847] (-) TimerEvent: {}
+[9.831173] (-) TimerEvent: {}
+[9.931494] (-) TimerEvent: {}
+[10.031864] (-) TimerEvent: {}
+[10.132171] (-) TimerEvent: {}
+[10.232506] (-) TimerEvent: {}
+[10.332881] (-) TimerEvent: {}
+[10.433215] (-) TimerEvent: {}
+[10.533560] (-) TimerEvent: {}
+[10.633890] (-) TimerEvent: {}
+[10.734232] (-) TimerEvent: {}
+[10.834567] (-) TimerEvent: {}
+[10.934908] (-) TimerEvent: {}
+[11.035261] (-) TimerEvent: {}
+[11.135597] (-) TimerEvent: {}
+[11.235938] (-) TimerEvent: {}
+[11.336283] (-) TimerEvent: {}
+[11.436604] (-) TimerEvent: {}
+[11.536952] (-) TimerEvent: {}
+[11.637297] (-) TimerEvent: {}
+[11.737627] (-) TimerEvent: {}
+[11.837950] (-) TimerEvent: {}
+[11.938258] (-) TimerEvent: {}
+[12.038644] (-) TimerEvent: {}
+[12.138966] (-) TimerEvent: {}
+[12.239247] (-) TimerEvent: {}
+[12.339567] (-) TimerEvent: {}
+[12.439897] (-) TimerEvent: {}
+[12.540173] (-) TimerEvent: {}
+[12.640488] (-) TimerEvent: {}
+[12.740803] (-) TimerEvent: {}
+[12.841124] (-) TimerEvent: {}
+[12.941431] (-) TimerEvent: {}
+[13.041738] (-) TimerEvent: {}
+[13.142041] (-) TimerEvent: {}
+[13.242320] (-) TimerEvent: {}
+[13.342634] (-) TimerEvent: {}
+[13.442961] (-) TimerEvent: {}
+[13.543243] (-) TimerEvent: {}
+[13.643555] (-) TimerEvent: {}
+[13.743868] (-) TimerEvent: {}
+[13.844157] (-) TimerEvent: {}
+[13.947156] (-) TimerEvent: {}
+[14.047495] (-) TimerEvent: {}
+[14.147819] (-) TimerEvent: {}
+[14.248153] (-) TimerEvent: {}
+[14.348487] (-) TimerEvent: {}
+[14.448828] (-) TimerEvent: {}
+[14.549155] (-) TimerEvent: {}
+[14.649493] (-) TimerEvent: {}
+[14.749821] (-) TimerEvent: {}
+[14.850153] (-) TimerEvent: {}
+[14.950510] (-) TimerEvent: {}
+[15.050826] (-) TimerEvent: {}
+[15.151147] (-) TimerEvent: {}
+[15.251469] (-) TimerEvent: {}
+[15.351797] (-) TimerEvent: {}
+[15.452149] (-) TimerEvent: {}
+[15.552485] (-) TimerEvent: {}
+[15.652805] (-) TimerEvent: {}
+[15.753140] (-) TimerEvent: {}
+[15.853466] (-) TimerEvent: {}
+[15.953820] (-) TimerEvent: {}
+[16.054152] (-) TimerEvent: {}
+[16.154478] (-) TimerEvent: {}
+[16.254805] (-) TimerEvent: {}
+[16.355161] (-) TimerEvent: {}
+[16.455522] (-) TimerEvent: {}
+[16.555856] (-) TimerEvent: {}
+[16.656182] (-) TimerEvent: {}
+[16.757023] (-) TimerEvent: {}
+[16.857378] (-) TimerEvent: {}
+[16.958368] (-) TimerEvent: {}
+[17.058703] (-) TimerEvent: {}
+[17.159040] (-) TimerEvent: {}
+[17.259342] (-) TimerEvent: {}
+[17.359680] (-) TimerEvent: {}
+[17.460050] (-) TimerEvent: {}
+[17.560329] (-) TimerEvent: {}
+[17.660651] (-) TimerEvent: {}
+[17.760954] (-) TimerEvent: {}
+[17.861248] (-) TimerEvent: {}
+[17.961551] (-) TimerEvent: {}
+[18.061869] (-) TimerEvent: {}
+[18.162178] (-) TimerEvent: {}
+[18.262472] (-) TimerEvent: {}
+[18.362756] (-) TimerEvent: {}
+[18.463121] (-) TimerEvent: {}
+[18.563417] (-) TimerEvent: {}
+[18.663774] (-) TimerEvent: {}
+[18.764114] (-) TimerEvent: {}
+[18.864429] (-) TimerEvent: {}
+[18.964740] (-) TimerEvent: {}
+[19.065069] (-) TimerEvent: {}
+[19.165397] (-) TimerEvent: {}
+[19.265726] (-) TimerEvent: {}
+[19.366047] (-) TimerEvent: {}
+[19.466379] (-) TimerEvent: {}
+[19.548516] (hello_moveit) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable hello_moveit\x1b[0m\n'}
+[19.566487] (-) TimerEvent: {}
+[19.666860] (-) TimerEvent: {}
+[19.767212] (-) TimerEvent: {}
+[19.867580] (-) TimerEvent: {}
+[19.968038] (-) TimerEvent: {}
+[20.068480] (-) TimerEvent: {}
+[20.168879] (-) TimerEvent: {}
+[20.269233] (-) TimerEvent: {}
+[20.369612] (-) TimerEvent: {}
+[20.469925] (-) TimerEvent: {}
+[20.570270] (-) TimerEvent: {}
+[20.670631] (-) TimerEvent: {}
+[20.770979] (-) TimerEvent: {}
+[20.871476] (-) TimerEvent: {}
+[20.972310] (-) TimerEvent: {}
+[21.075240] (-) TimerEvent: {}
+[21.175651] (-) TimerEvent: {}
+[21.276525] (-) TimerEvent: {}
+[21.376974] (-) TimerEvent: {}
+[21.477442] (-) TimerEvent: {}
+[21.577802] (-) TimerEvent: {}
+[21.678142] (-) TimerEvent: {}
+[21.778467] (-) TimerEvent: {}
+[21.878781] (-) TimerEvent: {}
+[21.979127] (-) TimerEvent: {}
+[22.079469] (-) TimerEvent: {}
+[22.179782] (-) TimerEvent: {}
+[22.280169] (-) TimerEvent: {}
+[22.308541] (hello_moveit) StdoutLine: {'line': b'[100%] Built target hello_moveit\n'}
+[22.328709] (hello_moveit) CommandEnded: {'returncode': 0}
+[22.329982] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'install'}
+[22.346996] (hello_moveit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/maniente/ws_moveit/src/hello_moveit/build/hello_moveit'], 'cwd': '/home/maniente/ws_moveit/src/hello_moveit/build/hello_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maniente'), ('LC_TIME', 'it_IT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('IGNITION_VERSION', 'fortress'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/maniente/ws_moveit/install/pilz_industrial_motion_planner_testutils/lib:/home/maniente/ws_moveit/install/pilz_industrial_motion_planner/lib:/home/maniente/ws_moveit/install/moveit_visual_tools/lib:/home/maniente/ws_moveit/install/moveit_task_constructor_visualization/lib:/home/maniente/ws_moveit/install/moveit_task_constructor_demo/lib:/home/maniente/ws_moveit/install/moveit_task_constructor_capabilities/lib:/home/maniente/ws_moveit/install/moveit_task_constructor_core/lib:/home/maniente/ws_moveit/install/moveit_ros_control_interface/lib:/home/maniente/ws_moveit/install/moveit_simple_controller_manager/lib:/home/maniente/ws_moveit/install/moveit_setup_assistant/lib:/home/maniente/ws_moveit/install/moveit_setup_srdf_plugins/lib:/home/maniente/ws_moveit/install/moveit_setup_core_plugins/lib:/home/maniente/ws_moveit/install/moveit_setup_controllers/lib:/home/maniente/ws_moveit/install/moveit_setup_app_plugins/lib:/home/maniente/ws_moveit/install/moveit_setup_framework/lib:/home/maniente/ws_moveit/install/moveit_servo/lib:/home/maniente/ws_moveit/install/moveit_ros_visualization/lib:/home/maniente/ws_moveit/install/moveit_hybrid_planning/lib:/home/maniente/ws_moveit/install/moveit_ros_planning_interface/lib:/home/maniente/ws_moveit/install/moveit_ros_benchmarks/lib:/home/maniente/ws_moveit/install/moveit_ros_warehouse/lib:/home/maniente/ws_moveit/install/moveit_ros_robot_interaction/lib:/home/maniente/ws_moveit/install/moveit_ros_perception/lib:/home/maniente/ws_moveit/install/moveit_ros_move_group/lib:/home/maniente/ws_moveit/install/moveit_planners_ompl/lib:/home/maniente/ws_moveit/install/moveit_ros_planning/lib:/home/maniente/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/maniente/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/maniente/ws_moveit/install/moveit_planners_chomp/lib:/home/maniente/ws_moveit/install/moveit_kinematics/lib:/home/maniente/ws_moveit/install/moveit_chomp_optimizer_adapter/lib:/home/maniente/ws_moveit/install/chomp_motion_planner/lib:/home/maniente/ws_moveit/install/moveit_core/lib:/home/maniente/ws_moveit/install/srdfdom/lib:/home/maniente/ws_moveit/install/rviz_marker_tools/lib:/home/maniente/ws_moveit/install/rosparam_shortcuts/lib:/home/maniente/ws_moveit/install/moveit_task_constructor_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/maniente'), ('OLDPWD', '/home/maniente/ws_moveit'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/maniente/.nvm/versions/node/v20.17.0/bin'), ('NVM_INC', '/home/maniente/.nvm/versions/node/v20.17.0/include/node'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('SYSTEMD_EXEC_PID', '1950'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/maniente/.nvm'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maniente/ws_moveit/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maniente'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'maniente'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/maniente/ws_moveit/install/moveit_core/bin:/home/maniente/.nvm/versions/node/v20.17.0/bin:/opt/ros/humble/bin:/home/maniente/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/maniente-X556URK:@/tmp/.ICE-unix/1922,unix/maniente-X556URK:/tmp/.ICE-unix/1922'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4b8aa8bb_4dbf_467b_99a0_e9da34c31f09'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OD1CY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/maniente/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/maniente/ws_moveit/install/moveit_runtime:/home/maniente/ws_moveit/install/moveit2_tutorials:/home/maniente/ws_moveit/install/moveit:/home/maniente/ws_moveit/install/moveit_planners:/home/maniente/ws_moveit/install/pilz_industrial_motion_planner:/home/maniente/ws_moveit/install/moveit_visual_tools:/home/maniente/ws_moveit/install/moveit_task_constructor_visualization:/home/maniente/ws_moveit/install/moveit_task_constructor_demo:/home/maniente/ws_moveit/install/moveit_task_constructor_capabilities:/home/maniente/ws_moveit/install/moveit_task_constructor_core:/home/maniente/ws_moveit/install/moveit_ros_control_interface:/home/maniente/ws_moveit/install/moveit_plugins:/home/maniente/ws_moveit/install/moveit_simple_controller_manager:/home/maniente/ws_moveit/install/moveit_setup_assistant:/home/maniente/ws_moveit/install/moveit_setup_srdf_plugins:/home/maniente/ws_moveit/install/moveit_setup_core_plugins:/home/maniente/ws_moveit/install/moveit_setup_controllers:/home/maniente/ws_moveit/install/moveit_setup_app_plugins:/home/maniente/ws_moveit/install/moveit_setup_framework:/home/maniente/ws_moveit/install/moveit_servo:/home/maniente/ws_moveit/install/moveit_ros:/home/maniente/ws_moveit/install/moveit_ros_visualization:/home/maniente/ws_moveit/install/moveit_hybrid_planning:/home/maniente/ws_moveit/install/hello_moveit:/home/maniente/ws_moveit/install/moveit_ros_planning_interface:/home/maniente/ws_moveit/install/moveit_ros_benchmarks:/home/maniente/ws_moveit/install/moveit_ros_warehouse:/home/maniente/ws_moveit/install/moveit_ros_robot_interaction:/home/maniente/ws_moveit/install/moveit_ros_perception:/home/maniente/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/maniente/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/maniente/ws_moveit/install/moveit_ros_move_group:/home/maniente/ws_moveit/install/moveit_planners_ompl:/home/maniente/ws_moveit/install/moveit_ros_planning:/home/maniente/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/maniente/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/maniente/ws_moveit/install/moveit_planners_chomp:/home/maniente/ws_moveit/install/moveit_kinematics:/home/maniente/ws_moveit/install/moveit_chomp_optimizer_adapter:/home/maniente/ws_moveit/install/chomp_motion_planner:/home/maniente/ws_moveit/install/moveit_core:/home/maniente/ws_moveit/install/moveit_configs_utils:/home/maniente/ws_moveit/install/srdfdom:/home/maniente/ws_moveit/install/rviz_marker_tools:/home/maniente/ws_moveit/install/rosparam_shortcuts:/home/maniente/ws_moveit/install/moveit_task_constructor_msgs:/home/maniente/ws_moveit/install/moveit_resources_prbt_support:/home/maniente/ws_moveit/install/moveit_resources:/home/maniente/ws_moveit/install/moveit_resources_pr2_description:/home/maniente/ws_moveit/install/moveit_resources_panda_moveit_config:/home/maniente/ws_moveit/install/moveit_resources_panda_description:/home/maniente/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/maniente/ws_moveit/install/moveit_resources_fanuc_description:/home/maniente/ws_moveit/install/moveit_common:/home/maniente/ws_moveit/install/launch_param_builder:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CMAKE_MODULE_PATH', '/home/maniente/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/maniente/ws_moveit/src/hello_moveit/build/hello_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/maniente/ws_moveit/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages:/home/maniente/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/maniente/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/maniente/ws_moveit/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/maniente/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/maniente/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/maniente/ws_moveit/install/moveit_runtime:/home/maniente/ws_moveit/install/moveit2_tutorials:/home/maniente/ws_moveit/install/moveit:/home/maniente/ws_moveit/install/moveit_planners:/home/maniente/ws_moveit/install/pilz_industrial_motion_planner:/home/maniente/ws_moveit/install/moveit_visual_tools:/home/maniente/ws_moveit/install/moveit_task_constructor_visualization:/home/maniente/ws_moveit/install/moveit_task_constructor_demo:/home/maniente/ws_moveit/install/moveit_task_constructor_capabilities:/home/maniente/ws_moveit/install/moveit_task_constructor_core:/home/maniente/ws_moveit/install/moveit_ros_control_interface:/home/maniente/ws_moveit/install/moveit_plugins:/home/maniente/ws_moveit/install/moveit_simple_controller_manager:/home/maniente/ws_moveit/install/moveit_setup_assistant:/home/maniente/ws_moveit/install/moveit_setup_srdf_plugins:/home/maniente/ws_moveit/install/moveit_setup_core_plugins:/home/maniente/ws_moveit/install/moveit_setup_controllers:/home/maniente/ws_moveit/install/moveit_setup_app_plugins:/home/maniente/ws_moveit/install/moveit_setup_framework:/home/maniente/ws_moveit/install/moveit_servo:/home/maniente/ws_moveit/install/moveit_ros:/home/maniente/ws_moveit/install/moveit_ros_visualization:/home/maniente/ws_moveit/install/moveit_hybrid_planning:/home/maniente/ws_moveit/install/hello_moveit:/home/maniente/ws_moveit/install/moveit_ros_planning_interface:/home/maniente/ws_moveit/install/moveit_ros_benchmarks:/home/maniente/ws_moveit/install/moveit_ros_warehouse:/home/maniente/ws_moveit/install/moveit_ros_robot_interaction:/home/maniente/ws_moveit/install/moveit_ros_perception:/home/maniente/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/maniente/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/maniente/ws_moveit/install/moveit_ros_move_group:/home/maniente/ws_moveit/install/moveit_planners_ompl:/home/maniente/ws_moveit/install/moveit_ros_planning:/home/maniente/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/maniente/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/maniente/ws_moveit/install/moveit_planners_chomp:/home/maniente/ws_moveit/install/moveit_kinematics:/home/maniente/ws_moveit/install/moveit_chomp_optimizer_adapter:/home/maniente/ws_moveit/install/chomp_motion_planner:/home/maniente/ws_moveit/install/moveit_core:/home/maniente/ws_moveit/install/srdfdom:/home/maniente/ws_moveit/install/rviz_marker_tools:/home/maniente/ws_moveit/install/rosparam_shortcuts:/home/maniente/ws_moveit/install/moveit_task_constructor_msgs:/home/maniente/ws_moveit/install/moveit_resources_prbt_support:/home/maniente/ws_moveit/install/moveit_resources:/home/maniente/ws_moveit/install/moveit_resources_pr2_description:/home/maniente/ws_moveit/install/moveit_resources_panda_moveit_config:/home/maniente/ws_moveit/install/moveit_resources_panda_description:/home/maniente/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/maniente/ws_moveit/install/moveit_resources_fanuc_description:/home/maniente/ws_moveit/install/moveit_common:/home/maniente/ws_moveit/install/moveit_configs_utils:/home/maniente/ws_moveit/install/launch_param_builder:/opt/ros/humble')]), 'shell': False}
+[22.364388] (hello_moveit) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[22.364704] (hello_moveit) StdoutLine: {'line': b'-- Installing: /home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/lib/hello_moveit/hello_moveit\n'}
+[22.380264] (-) TimerEvent: {}
+[22.381015] (hello_moveit) StdoutLine: {'line': b'-- Set runtime path of "/home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/lib/hello_moveit/hello_moveit" to ""\n'}
+[22.381196] (hello_moveit) StdoutLine: {'line': b'-- Installing: /home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit\n'}
+[22.381426] (hello_moveit) StdoutLine: {'line': b'-- Installing: /home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit\n'}
+[22.381710] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh\n'}
+[22.381865] (hello_moveit) StdoutLine: {'line': b'-- Installing: /home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv\n'}
+[22.382011] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/share/hello_moveit/environment/path.sh\n'}
+[22.382182] (hello_moveit) StdoutLine: {'line': b'-- Installing: /home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/share/hello_moveit/environment/path.dsv\n'}
+[22.382375] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/share/hello_moveit/local_setup.bash\n'}
+[22.382560] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/share/hello_moveit/local_setup.sh\n'}
+[22.382735] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/share/hello_moveit/local_setup.zsh\n'}
+[22.382912] (hello_moveit) StdoutLine: {'line': b'-- Installing: /home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/share/hello_moveit/local_setup.dsv\n'}
+[22.383023] (hello_moveit) StdoutLine: {'line': b'-- Installing: /home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/share/hello_moveit/package.dsv\n'}
+[22.383190] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit\n'}
+[22.383385] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake\n'}
+[22.383496] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake\n'}
+[22.383605] (hello_moveit) StdoutLine: {'line': b'-- Installing: /home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/share/hello_moveit/package.xml\n'}
+[22.385804] (hello_moveit) CommandEnded: {'returncode': 0}
+[22.411965] (hello_moveit) JobEnded: {'identifier': 'hello_moveit', 'rc': 0}
+[22.412821] (-) EventReactorShutdown: {}

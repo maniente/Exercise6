@@ -1,0 +1,92 @@
+[0.023s] Invoking command in '/home/maniente/ws_moveit/src/hello_moveit/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maniente/ws_moveit/install/moveit_configs_utils:/home/maniente/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/maniente/ws_moveit/src/hello_moveit -DCMAKE_INSTALL_PREFIX=/home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit
+[0.047s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.236s] -- Found moveit_ros_planning_interface: 2.5.6 (/home/maniente/ws_moveit/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[0.252s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.293s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.296s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.303s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.319s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.341s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.617s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.665s] -- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.706s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.711s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.890s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.955s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.983s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.046s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.084s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.253s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.299s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[1.330s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.375s] -- Found moveit_visual_tools: 4.1.1 (/home/maniente/ws_moveit/install/moveit_visual_tools/share/moveit_visual_tools/cmake)
+[1.514s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[1.547s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.549s] -- Found OGRE
+[1.549s] --   static     : OFF
+[1.549s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.549s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.549s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.549s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.549s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[1.550s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.550s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[1.550s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.550s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.550s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.550s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.595s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.616s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.843s] -- Found X11: /usr/include   
+[1.844s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.962s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.962s] -- Looking for gethostbyname
+[2.076s] -- Looking for gethostbyname - found
+[2.076s] -- Looking for connect
+[2.221s] -- Looking for connect - found
+[2.221s] -- Looking for remove
+[2.390s] -- Looking for remove - found
+[2.390s] -- Looking for shmat
+[2.528s] -- Looking for shmat - found
+[2.528s] -- Looking for IceConnectionNumber in ICE
+[2.657s] -- Looking for IceConnectionNumber in ICE - found
+[2.872s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.010s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.010s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/maniente/ws_moveit/src/hello_moveit/include>
+[3.010s] -- Configured cppcheck exclude dirs and/or files: 
+[3.015s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.026s] -- Added test 'lint_cmake' to check CMake code style
+[3.031s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.068s] -- Added test 'uncrustify' to check C / C++ code style
+[3.068s] -- Configured uncrustify additional arguments: 
+[3.074s] -- Added test 'xmllint' to check XML markup files
+[3.075s] -- Configuring done
+[3.150s] -- Generating done
+[3.169s] -- Build files have been written to: /home/maniente/ws_moveit/src/hello_moveit/build/hello_moveit
+[3.193s] Invoked command in '/home/maniente/ws_moveit/src/hello_moveit/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maniente/ws_moveit/install/moveit_configs_utils:/home/maniente/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/maniente/ws_moveit/src/hello_moveit -DCMAKE_INSTALL_PREFIX=/home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit
+[3.194s] Invoking command in '/home/maniente/ws_moveit/src/hello_moveit/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maniente/ws_moveit/install/moveit_configs_utils:/home/maniente/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/maniente/ws_moveit/src/hello_moveit/build/hello_moveit -- -j4 -l4
+[3.295s] [35m[1mConsolidate compiler generated dependencies of target hello_moveit[0m
+[3.346s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[19.548s] [100%] [32m[1mLinking CXX executable hello_moveit[0m
+[22.308s] [100%] Built target hello_moveit
+[22.328s] Invoked command in '/home/maniente/ws_moveit/src/hello_moveit/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maniente/ws_moveit/install/moveit_configs_utils:/home/maniente/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/maniente/ws_moveit/src/hello_moveit/build/hello_moveit -- -j4 -l4
+[22.348s] Invoking command in '/home/maniente/ws_moveit/src/hello_moveit/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maniente/ws_moveit/install/moveit_configs_utils:/home/maniente/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/maniente/ws_moveit/src/hello_moveit/build/hello_moveit
+[22.364s] -- Install configuration: "Debug"
+[22.364s] -- Installing: /home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/lib/hello_moveit/hello_moveit
+[22.380s] -- Set runtime path of "/home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/lib/hello_moveit/hello_moveit" to ""
+[22.381s] -- Installing: /home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit
+[22.381s] -- Installing: /home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit
+[22.381s] -- Up-to-date: /home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh
+[22.381s] -- Installing: /home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv
+[22.381s] -- Up-to-date: /home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/share/hello_moveit/environment/path.sh
+[22.381s] -- Installing: /home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/share/hello_moveit/environment/path.dsv
+[22.382s] -- Up-to-date: /home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/share/hello_moveit/local_setup.bash
+[22.382s] -- Up-to-date: /home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/share/hello_moveit/local_setup.sh
+[22.382s] -- Up-to-date: /home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/share/hello_moveit/local_setup.zsh
+[22.382s] -- Installing: /home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/share/hello_moveit/local_setup.dsv
+[22.382s] -- Installing: /home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/share/hello_moveit/package.dsv
+[22.383s] -- Up-to-date: /home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit
+[22.383s] -- Up-to-date: /home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake
+[22.383s] -- Up-to-date: /home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake
+[22.383s] -- Installing: /home/maniente/ws_moveit/src/hello_moveit/install/hello_moveit/share/hello_moveit/package.xml
+[22.386s] Invoked command in '/home/maniente/ws_moveit/src/hello_moveit/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/maniente/ws_moveit/install/moveit_configs_utils:/home/maniente/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/maniente/ws_moveit/src/hello_moveit/build/hello_moveit
